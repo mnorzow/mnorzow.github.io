@@ -1,0 +1,68 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Sue Ellen Francisco;
+    src: url(../fonts/SueEllenFrancisco-Regular.ttf);
+}
+
+body {
+    width: 78%;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size:x-large;
+    background: url(../images/paperbackground.jpg) repeat-y;
+    background-size: contain;
+    line-height: 35px;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+
+.sidebar {
+    margin: 55px 0px 10px 50px;
+    padding: 20px 0px 10px 50px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 28%;
+}
+
+.intro h1 {
+    text-align: center;
+    background: url(../images/drawnbox.png) no-repeat;
+    background-size: 300px;
+    background-position: center;
+    padding: 55px 0px 55px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+}
+
+h2, h3 {
+    background: linear-gradient(to top, #575759 0%, #E4DEE3 100%);
+    padding-left: 5px;
+}
+
+@media screen and (max-width:600px){
+    .sidebar {
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+        right: 100px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
