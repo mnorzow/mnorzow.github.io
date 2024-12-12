@@ -1,0 +1,76 @@
+/* Global Styles */
+@font-face {
+  font-family: "Handlee";
+  src: url(../fonts/Handlee-Regular.ttf);
+}
+
+/*@media screen and (max-width:700px) {
+  main img {
+
+  }
+}*/
+
+
+body {
+    background-color: #f3d9e4;
+    width: 100%;
+    font-family: "Handlee", cursive;
+    margin: 0px 0px 0px 0px;
+  }
+
+  h1, nav, main img, footer {
+    text-align: center;
+  }
+
+  main p {
+    width: 60%;
+    padding-bottom: 50px;
+    padding-left: 10px;
+  }
+  
+  h1 {
+    color: limegreen;
+    font-size: 250%;
+    background-image: url(../images/headerimg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 30%;
+    margin-top: 0px;
+  }
+  
+  nav a {
+    font-size: x-large;
+    padding-bottom: 100px;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    color: limegreen;
+  }
+  
+  footer {
+    background-color: mediumorchid;
+    font-size: 110%;
+    padding: 10px 10px 10px 10px;
+
+  }
+  
+  footer a {
+    color: white;
+  }
+
+  
+  main {
+    padding-bottom: 50px;
+  }
+  
+  img {
+    margin: 10px;
+    width: 55%;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  
